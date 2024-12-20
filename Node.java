@@ -21,24 +21,4 @@ public class Node {
     public boolean isEndOfWord() {
         return endOfWord;
     }
-
-    public void markEndOfWord() {
-        this.endOfWord = true;
-    }
-
-    public Node getNextSibling() {
-        return nextSibling;
-    }
-
-    public void setNextSibling(Node nextSibling) {
-        this.nextSibling = nextSibling;
-    }
-
-    public Node getFirstChild() {
-        return firstChild;
-    }
-
-    public void setFirstChild(Node firstChild) {
-        this.firstChild = firstChild;
-    }
 }
