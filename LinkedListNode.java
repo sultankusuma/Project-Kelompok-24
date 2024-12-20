@@ -18,8 +18,4 @@ public class LinkedListNode {
     public LinkedListNode getNext() {
         return next;
     }
-
-    public void setNext(LinkedListNode next) {
-        this.next = next;
-    }
 }
